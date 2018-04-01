@@ -1,4 +1,7 @@
 # Transfer-Learning-
+
+https://sites.google.com/view/transferlearning/home
+
 In this project, we modified and retrained an existing pre-trained CNN (vgg16) to detect airplanes in the images. We run the code in Python, using vgg16 pre-trained network and subset of Caltech-101 dataset which are available online. While retraining the vgg16 network, We froze most of the layers in it and modified the last 3 layers (fully connected layer, fully connected layer, and softmax). In the end the new CNN can distinguish planes (class 1) from all other object (class 0) in the images with a reasonably good accuracy.
 Framework
 We used Tensorflow via Keras for implementing the Project. 
